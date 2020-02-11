@@ -159,6 +159,20 @@ code{
 .card-b:hover{
     border-radius: 50%;
 }
+.tab-content .fade{
+    position: relative !important;
+}
+.tab-pane:not(.active) {
+    display: none;
+}
+.nav-tabs .nav-item .nav-link{
+    background-color: #770F9A;
+    border-radius: 0;
+    color: white;
+}
+.nav-tabs .show{
+    color:#770F9A !important;
+}
 .footer{
     background-color: #770F9A;
     height: 50px;
