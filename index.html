@@ -34,7 +34,8 @@
     <nav class="navbar navbar-expand-sm navbar-dark">
         <!-- Brand -->
         
-        <div class="container d-flex align-items-center justify-content-center">
+        <div class=" px-5 container-fluid d-flex align-items-center justify-content-between">
+            <h4 class=" saf mt-2 "> Simple <br> & <br> Fast </h4>
             <a class="navbar-brand " href="#"> <img src="images/logo.png"  width="100%" alt=""> </a>
             <h4 class=" number mt-2 "> +93(0)799555440  <i class="fas fa-phone"></i></code></h4>
         </div>
@@ -45,14 +46,17 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th rowspan="2" class="sf"><h4>Simple and Fast!</h4></th>
-                            <th rowspan="1"  colspan="2">Things To Know!</th>
-                        </tr>
-                        <tr>
-                            <th><p>For checking Balance Dial <code>*440*11#</code> </p></th>
-                            <th><p>For Transfering Credit Dial <code>*440*1*Phone Number*Amount#</code></p></th>
+                            <th>Things To Know!</th>
                         </tr>
                     </thead>
+                    <tbody>
+                        <tr>
+                            <th><p>For checking Balance Dial <code>*440*11#</code> </p></th>
+                        </tr>
+                        <tr>
+                            <th><p>For Transfering Credit Dial <code>*440*1*Phone Number*Amount#</code></p></th>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -179,16 +183,27 @@
                           <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Etisalat
                           <span class="caret"></span></a>
                           <ul class="dropdown-menu">
-                            <li><a href="#etdata">Data Bundles</a></li>
-                            <li><a href="#">Message Bundles</a></li>
-                            <li><a href="#">Call Bundles</a></li>
-                            <li><a href="#">service</a></li>
-                            <li><a href="#">international Bundles</a></li>
+                            <li class="nav-item"><a class="nav-link " href="#etdata">Data Bundles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#etmsg">Message Bundles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#etvc">Call Bundles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#etser">service</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#etib">international Bundles</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown nav-item">
+                          <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Roshan
+                          <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link" href="#rdata">Data Bundles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#rmsg">Message Bundles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#rvc">Call Bundles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#rser">service</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#rib">international Bundles</a></li>
                           </ul>
                         </li>
                       </ul>
-                      <div class="tab-content">
-                        <div id="etdata" class="container tab-pane "><br>
+                      <div class="tab-content mt-3">
+                        <div id="etdata" class="container tab-pane ">
                             <ul class="nav nav-tabs">
                                 <li class=" nav-item">
                                   <a class=" nav-link active" href="#hourly">Hourly</a>
@@ -203,13 +218,13 @@
                                   <a class=" nav-link" href="#monthly">Monthly</a>
                                 </li>
                                 <li class=" nav-item">
-                                  <a class=" nav-link" href="#">Mixed</a>
+                                  <a class=" nav-link" href="#mixed">Mixed</a>
                                 </li>
                                 <li class=" nav-item">
-                                  <a class=" nav-link" href="#">Nightly</a>
+                                  <a class=" nav-link" href="#nightly">Nightly</a>
                                 </li>
                                 <li class=" nav-item">
-                                  <a class=" nav-link" href="#">3 Months</a>
+                                  <a class=" nav-link" href="#months">3 Months</a>
                                 </li>
                             </ul>
                               <div id="hourly" class="container active show tab-pane fade ">
@@ -360,16 +375,424 @@
                                     </div>
                                 </div>
                               </div>
+                              <div id="mixed" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>Mixed Data Bundle</h3>
+                                    <span class="badge badge-primary">3GB</span>
+                                    <span class="badge badge-primary">500min Call</span>
+                                    <span class="badge badge-primary">500 SMS</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">499 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "499" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 499" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Mixed Onnet Bundle</h3>
+                                    <span class="badge badge-primary">500MB</span>
+                                    <span class="badge badge-primary">1500min Call</span>
+                                    <span class="badge badge-primary">500 SMS</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">299 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "M299" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU M299" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Mixed Onnet Bundle</h3>
+                                    <span class="badge badge-primary">100MB</span>
+                                    <span class="badge badge-primary">500min Call</span>
+                                    <span class="badge badge-success">1 Day</span>
+                                    <span class="badge badge-warning">20 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "806" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 806" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Mixed Onnet Bundle</h3>
+                                    <span class="badge badge-primary">500MB</span>
+                                    <span class="badge badge-primary">100min Call</span>
+                                    <span class="badge badge-success">1 Day</span>
+                                    <span class="badge badge-warning">45 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "45" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 45" to 3378</span>
+                                    </div>
+                                </div>
+                              </div>
+                              <div id="nightly" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>Nightly Bundle</h3>
+                                    <span class="badge badge-primary">3GB</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">99 Afghani</span>
+                                    <span class="badge badge-danger">10:00 PM to 6:00 AM</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "NBS" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU NBS" to 3378</span>
+                                    </div>
+                                </div>
+                              </div>
+                              <div id="months" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>6GB 3-Months Bundle</h3>
+                                    <span class="badge badge-primary">6GB</span>
+                                    <span class="badge badge-success">3 Month</span>
+                                    <span class="badge badge-warning">999 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "6GB" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 6GB" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>25GB 3-Months Bundle</h3>
+                                    <span class="badge badge-primary">25GB</span>
+                                    <span class="badge badge-success">3 Month</span>
+                                    <span class="badge badge-warning">1999 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "25GB" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 25GB" to 3378</span>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div id="etmsg" class="container tab-pane ">
+                            <ul class="nav nav-tabs">
+                                <li class=" nav-item">
+                                  <a class=" nav-link active" href="#dailymsg">Daily</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#weeklymsg">weekly</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#monthlymsg">Monthly</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#mixedmsg">Mixed</a>
+                                </li>
+                            </ul>
+                            <div id="dailymsg" class="container active show tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>200 SMS Daily Bundle</h3>
+                                    <span class="badge badge-primary">200 SMS</span>
+                                    <span class="badge badge-success">1 Day</span>
+                                    <span class="badge badge-warning">10 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "BDS" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU BDS" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="weeklymsg" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>3000 SMS Weekly Bundle</h3>
+                                    <span class="badge badge-primary">3000 SMS</span>
+                                    <span class="badge badge-success">1 Week</span>
+                                    <span class="badge badge-warning">30 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "BWS" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU BWS" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="monthlymsg" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>20000 SMS Monthly Bundle</h3>
+                                    <span class="badge badge-primary">20000 SMS</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">65 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "BMS" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU BMS" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="mixedmsg" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>Mixed Data Bundle</h3>
+                                    <span class="badge badge-primary">3GB</span>
+                                    <span class="badge badge-primary">500min Call</span>
+                                    <span class="badge badge-primary">500 SMS</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">499 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "499" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 499" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Mixed Onnet Bundle</h3>
+                                    <span class="badge badge-primary">500MB</span>
+                                    <span class="badge badge-primary">1500min Call</span>
+                                    <span class="badge badge-primary">500 SMS</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">299 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "M299" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU M299" to 3378</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div id="et" class="container tab-pane fade"><br>
-                          <h3>Menu 1</h3>
-                          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div id="etvc" class="container tab-pane ">
+                            <ul class="nav nav-tabs">
+                                <li class=" nav-item">
+                                  <a class=" nav-link active" href="#dailyvc">Daily</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#weeklyvc">weekly</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#monthlyvc">Monthly</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#mixedvc">Mixed</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#nightlyvc">Nightly</a>
+                                </li>
+                            </ul>
+                            <div id="dailyvc" class="container active show tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>25 min Daily Bundle</h3>
+                                    <span class="badge badge-primary">25 min</span>
+                                    <span class="badge badge-success">1 Day Except 5PM to 9PM</span>
+                                    <span class="badge badge-warning">15 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "801" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 801" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>50 min Daily Bundle</h3>
+                                    <span class="badge badge-primary">50 min</span>
+                                    <span class="badge badge-success">1 Day Except 5PM to 9PM</span>
+                                    <span class="badge badge-warning">20 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "806" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 806" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>100 min Daily Bundle</h3>
+                                    <span class="badge badge-primary">100 min</span>
+                                    <span class="badge badge-success">1 Day Except 5PM to 9PM</span>
+                                    <span class="badge badge-warning">25 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "900" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 900" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>150 min Daily Bundle</h3>
+                                    <span class="badge badge-primary">150 min</span>
+                                    <span class="badge badge-success">1 Day</span>
+                                    <span class="badge badge-warning">40 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "700" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 700" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="weeklyvc" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>250 min Weekly Bundle</h3>
+                                    <span class="badge badge-primary">250 min</span>
+                                    <span class="badge badge-success">1 week</span>
+                                    <span class="badge badge-warning">75 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "W75" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU W75" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="monthlyvc" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>1000 min Weekly Bundle</h3>
+                                    <span class="badge badge-primary">1000 min</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">200 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "M200" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU M200" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="mixedvc" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>Mixed Data Bundle</h3>
+                                    <span class="badge badge-primary">3GB</span>
+                                    <span class="badge badge-primary">500min Call</span>
+                                    <span class="badge badge-primary">500 SMS</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">499 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "499" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 499" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Mixed Onnet Bundle</h3>
+                                    <span class="badge badge-primary">500MB</span>
+                                    <span class="badge badge-primary">1500min Call</span>
+                                    <span class="badge badge-primary">500 SMS</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">299 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "M299" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU M299" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Mixed Onnet Bundle</h3>
+                                    <span class="badge badge-primary">100MB</span>
+                                    <span class="badge badge-primary">500min Call</span>
+                                    <span class="badge badge-success">1 Day</span>
+                                    <span class="badge badge-warning">20 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "806" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 806" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Mixed Onnet Bundle</h3>
+                                    <span class="badge badge-primary">500MB</span>
+                                    <span class="badge badge-primary">100min Call</span>
+                                    <span class="badge badge-success">1 Day</span>
+                                    <span class="badge badge-warning">45 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "45" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 45" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="nightlyvc" class="container tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>5000 min Nightly Bundle</h3>
+                                    <span class="badge badge-primary">2000 min</span>
+                                    <span class="badge badge-success">1 Month From 10PM to 6AM</span>
+                                    <span class="badge badge-warning">199 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "199" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 199" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div id="etser" class="container tab-pane">
+                            <div  class="container active show tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>Check Balance</h3>
+                                    <span class="badge badge-primary">*123#</span>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Loan 20 Afghani</h3>
+                                    <span class="badge badge-primary">Send 'SIM' to 3378</span>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Send Credit</h3>
+                                    <span class="badge badge-primary">*125*078xxxxxxx*amount#</span>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>APN Setting</h3>
+                                    <span class="badge badge-primary">Name: Etisalat</span>
+                                    <span class="badge badge-warning">APN: etisalat.af.web</span>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Add Credit</h3>
+                                    <span class="badge badge-primary">*404*xxxxxxxxxxxxxx#</span>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Active 3G</h3>
+                                    <span class="badge badge-primary">Send '3G' to 3378</span>
+                                </div>
+                                <div class="mt-4">
+                                    <h3>Active 4G</h3>
+                                    <span class="badge badge-primary">Send '4G' to 3378</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="etib" class="container tab-pane">
+                            <div  class="container active show tab-pane fade ">
+                                <div class="mt-5">
+                                    <h3>Daily Bundle</h3>
+                                    <span class="badge badge-primary">Germany, China, Pakistan, India, USA</span>
+                                    <span class="badge badge-primary">10 min</span>
+                                    <span class="badge badge-success">1 Day</span>
+                                    <span class="badge badge-warning">35 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "25" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 25" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-5">
+                                    <h3>Weekly Bundle</h3>
+                                    <span class="badge badge-primary">Germany, China, Pakistan, India, USA</span>
+                                    <span class="badge badge-primary">25 min</span>
+                                    <span class="badge badge-success">1 Week</span>
+                                    <span class="badge badge-warning">75 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "w35" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU w35" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-5">
+                                    <h3>Monthly Bundle</h3>
+                                    <span class="badge badge-primary">Germany, China, Pakistan, India, USA</span>
+                                    <span class="badge badge-primary">50 min</span>
+                                    <span class="badge badge-success">1 Month</span>
+                                    <span class="badge badge-warning">150 Afghani</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "50" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 50" to 3378</span>
+                                    </div>
+                                </div>
+                                <div class="mt-5">
+                                    <h3>Iran Bundle</h3>
+                                    <span class="badge badge-primary">6.5 Afghani Per Minute</span>
+                                    <div>
+                                        <span class="badge badge-primary">To Active Send "91" to 3378</span>
+                                        <span class="badge badge-warning">To Deactive Send "PU 91" to 3378</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="tab-content">
+                          <div id="rdata" class="container tab-pane">
+                            <ul class="nav nav-tabs">
+                                <li class=" nav-item">
+                                  <a class=" nav-link active" href="#rhourly">Hourly</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#rdaily">Daily</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#rweekly">weekly</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#rmonthly">Monthly</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#rmixed">Mixed</a>
+                                </li>
+                                <li class=" nav-item">
+                                  <a class=" nav-link" href="#rnightly">Nightly</a>
+                                </li>
+                            </ul>
+                            <div id="rhourly" class="container active show fade tab-pane">
+                                
+                            </div>
+                          </div>
+                      </div>
                         <div id="awc" class="container tab-pane fade"><br>
                           <h3>Menu 2</h3>
                           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         </div>
+                       
                       </div>
                     </div>
                   </div>
