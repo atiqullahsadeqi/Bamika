@@ -3,6 +3,10 @@ nav{
     padding-bottom: 0 !important;
     position: relative;
 }
+h1
+{
+    color: #770F9A;
+}
 .saf{
     color: #770F9A;
     font-size: 2.5em;
