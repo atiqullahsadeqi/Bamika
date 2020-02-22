@@ -194,6 +194,29 @@ code{
     border-radius: 0;
     padding: 7px;
 }
+.nav-link{
+    font-size: 20px;
+    border-radius: 5px !important;
+    font-family: verdana;
+}
+.sim{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    background-color: #770F9A;
+    color: white;
+    z-index: 897987;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.sim:focus{
+    border: none;
+    outline: none;
+}
+.sim:hover{
+    color: white !important;
+}
 .footer{
     background-color: #770F9A;
     height: 50px;
@@ -216,6 +239,12 @@ code{
     }
     .info h1 code{
         font-size: 30px;
+    }
+    thead tr{
+        font-size: 1.5em;
+    }
+    tbody tr{
+        font-size: 1em;
     }
 }
 @media only screen and (max-width: 1190px) {
