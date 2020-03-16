@@ -5,15 +5,15 @@ nav{
 }
 h1
 {
-    color: #770F9A;
+    color: #F83F07;
 }
 .saf{
-    color: #770F9A;
+    color: #F83F07;
     font-size: 2.5em;
     font-weight: bold;
 }
 .number{
-    color: #770F9A;
+    color: #F83F07;
     font-size: 2em;
 }
 .navbar-brand{
@@ -23,9 +23,7 @@ h1
 }
 .navbar-brand:hover{
     background: white !important;
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px  rgba(0,0,0,0.3);
 }
 thead tr{
     font-size: 2.1em;
@@ -38,7 +36,7 @@ th p{
 }
 tr,
 tr code{
-    background-color: #770F9A;
+    background-color: #F83F07;
     color: white;
     cursor: pointer;
     transition: .3s;
@@ -46,7 +44,7 @@ tr code{
 }
 tr:hover{
     background-color: white;
-    color: #770F9A;
+    color: #F83F07;
 }
 .sf h4{
    align-self: center;
@@ -61,7 +59,7 @@ tr:hover{
     cursor: pointer;
 }
 .item:hover{
-    border: 2px solid #770F9A;
+    border: 2px solid #F83F07;
     border-radius: 50%;
     background: white;
 }
@@ -87,7 +85,7 @@ tr:hover{
     height: 5px !important;
 }
 .owl-theme .owl-dots .active span {
-    background: #770F9A !important ;
+    background: #F83F07 !important ;
 }
 .owl-nav{
     top: 0%;
@@ -106,28 +104,28 @@ tr:hover{
 
 }
 .top-txt{
-    color: #770F9A;
+    color: #F83F07;
 }
 .card-fixed{
     height: 400px;
     width: 300px;
-    background-color: #770F9A;
+    background-color: #F83F07;
     border-radius: 10px;
     transition: .3s;
 }
 code{
-    color: #770F9A;
+    color: #F83F07;
 }
 .card{
     height: 400px;
     width: 300px;
-    border: 3px solid #770F9A;
+    border: 3px solid #F83F07;
     border-radius: 10px;
     transition: .3s;
     cursor: pointer;
 }
 .card:hover{
-    background-color: #770F9A;
+    background-color: #F83F07;
     color: White;
 }
 .card:hover code{
@@ -135,12 +133,12 @@ code{
 }
 .card:hover .card-fixed{
     background-color: white;
-    color: #770F9A;
+    color: #F83F07;
 }
 .info{
     height: 250px;
     width: 100%;
-    background-color: #770F9A;
+    background-color: #F83F07;
 }
 .info code{
     color: white;
@@ -160,7 +158,8 @@ code{
     background-color: white;
 }
 .social span:hover i{
-    color: #770F9A !important;
+    color: #F83F07 !important;
+    
 }
 .card-b{
     height: 350px;
@@ -182,12 +181,12 @@ code{
     display: none;
 }
 .nav-tabs .nav-item .nav-link{
-    background-color: #770F9A;
+    background-color: #F83F07;
     border-radius: 0;
     color: white;
 }
 .nav-tabs .active{
-    color:#770F9A !important;
+    color:#F83F07 !important;
     background-color: white !important;
 }
 .nav-tabs .dropdown-menu{
@@ -203,7 +202,7 @@ code{
     position: fixed;
     bottom: 10%;
     right: 5%;
-    background-color: #770F9A;
+    background-color: #F83F07;
     color: white;
     z-index: 897987;
     border: none;
@@ -218,7 +217,7 @@ code{
     color: white !important;
 }
 .footer{
-    background-color: #770F9A;
+    background-color: #F83F07;
     height: 50px;
 }
 @media only screen and (max-width: 768px) {
