@@ -3,6 +3,9 @@ nav{
     padding-bottom: 0 !important;
     position: relative;
 }
+.nav-link{
+    cursor: pointer !important;
+}
 h1
 {
     color: #F83F07;
@@ -221,6 +224,12 @@ code{
     height: 50px;
 }
 @media only screen and (max-width: 768px) {
+    .nav-tabs{
+        justify-content: space-around !important;
+    }
+    .nav-tabs li{
+        margin-top: 10px;
+    }
     .container{
         width: 100% !important;
     }
