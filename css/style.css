@@ -224,6 +224,9 @@ code{
     height: 50px;
 }
 @media only screen and (max-width: 768px) {
+    .number{
+        font-size: 25px;
+    }
     .nav-tabs{
         justify-content: space-around !important;
     }
